@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: #4c4c4c;
+}
+.navbar a:hover
+{
+
+transition: 0.3s;
+color: white;
+border-bottom: solid white;
+}
+.navbar ul li 
+{
+    display: inline;
+    margin: 1.5em;
+}
+
+.navbar ul li .logo
+{
+ cursor: pointer;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins' ;
+    padding: .3em;
+
+}
+
+.content .content1
+{
+    font-family: 'Poppins';
+    margin-top: 10em;
+    margin-left: 5em;
+    margin-bottom: -2em;
+    color: rgb(110, 183, 255);
+}
+
+.content .content2
+{
+    font-family: 'PT Sans';
+    margin-left: 2em;
+    font-size: 30px;
+    color: white;
+  
+}
+
+.content .content2 span
+{
+    color: rgb(110, 183, 255);
+    
+}
+
+.content .content3
+{
+    font-family: 'Poppins';
+    margin-left: 4em;
+    margin-top: -3em;
+}
+
+.content .seasonal a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    border: solid 2px;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.content .seasonal  a
+{
+    margin-top: 3em;
+    margin-left: 4em;
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255) ;
+    
+}
+
+.content .seasonal a:hover
+{
+background-color: rgb(110, 183, 255);
+transition: 0.3s;
+color: white;
+border-color: rgb(110, 183, 255);
+}
+
+.content .seasonal
+{
+    margin-top: 3em;
+}
+
+.content .slideshow img
+{
+    float: right;
+    box-shadow: 10px 10px 0px black;
+    border: solid;
+}
+
+.content .slideshow
+{
+    margin-top: -23em;
+    margin-right: 4em;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 19%;
+  }
